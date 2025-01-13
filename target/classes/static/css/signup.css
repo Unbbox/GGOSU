@@ -1,5 +1,5 @@
 :root{
-  --primaryColor:green;
+  --primaryColor:#2a475e;
   --errorColor:orange;
 }
 /* css에 변수를 선언할 때에는 :root{} 이렇게 입력하고 {} 안에다ㅏ가 key와 value 값으로 설정 */
@@ -26,7 +26,7 @@ body{
 /* display:flex를 먹인 태그는 부모태그가 되고 div태그는 자식태그가 된다. */
 
 #wrapper{
-  width: 420px;
+  width: 450px;
   box-shadow: 0px 4px 14px rgba(0,0,0,0.2);
   /* box-shadow는 영역의 그림자를 설정한다.*/
   /* 0px는 수평 방향의 그림자를 생성 */
@@ -41,7 +41,7 @@ h2{
 }
 
 .inputGroup{
-  padding: 8px 12px;
+  padding: 5px 12px;
   /*8px은 패딩을 위아래로 8px씩, 12px은 패딩을 왼쪽오른쪽으로 12px씩 줍니다.*/
 }
 
