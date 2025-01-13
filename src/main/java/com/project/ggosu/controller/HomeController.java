@@ -10,6 +10,6 @@ public class HomeController {
 
     @GetMapping("/")
     public String getMethodName() {
-        return "signup";
+        return "index";
     }
 }
